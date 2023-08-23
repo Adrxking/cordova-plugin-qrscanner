@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-qrscanner",
-  "version": "3.0.2",
+  "name": "@likesistemas/cordova-plugin-qrscanner",
+  "version": "3.0.3",
   "description": "Fast, energy-efficient, highly-configurable QR code scanner.",
   "cordova": {
     "id": "cordova-plugin-qrscanner",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/cordova-plugin-qrscanner"
+    "url": "git+https://github.com/bitpay/cordova-plugin-qrscanner.git"
   },
   "keywords": [
     "cordova",
@@ -82,5 +82,8 @@
     "validate-commit-msg": {
       "helpMessage": "\nThis project uses commitizen to document changes. Please try:\nnpm install commitizen -g && git cz\n"
     }
+  },
+  "directories": {
+    "test": "tests"
   }
 }
