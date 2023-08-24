@@ -450,7 +450,7 @@ class QRScanner : CDVPlugin, AVCaptureMetadataOutputObjectsDelegate {
     }
 
     @objc func openSettings(_ command: CDVInvokedUrlCommand) {
-        guard let settingsUrl = URL(string: UIApplication.UIApplicationOpenSettingsURLString) else {
+        guard let settingsUrl = URL(string: UIApplication.openSettingsURLString) else {
             return
         }
         if UIApplication.shared.canOpenURL(settingsUrl) {
