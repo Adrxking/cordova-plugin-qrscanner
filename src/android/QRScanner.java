@@ -458,6 +458,7 @@ public class QRScanner extends CordovaPlugin implements BarcodeCallback {
                 formatList.add(BarcodeFormat.QR_CODE);
                 formatList.add(BarcodeFormat.CODE_128);
                 formatList.add(BarcodeFormat.CODE_39);
+                formatList.add(BarcodeFormat.ITF);
                 mBarcodeView.setDecoderFactory(new DefaultDecoderFactory(formatList));
 
                 //Configure the camera (front/back)
